@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CalculatorPrivateAssembly;
 
 namespace BasicCalculator_library
 {
-    public partial class Form1 : Form
+    public partial class FrmBasicCalculator : Form
     {
-        public Form1()
+        public FrmBasicCalculator()
         {
             InitializeComponent();
         }
